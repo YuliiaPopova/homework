@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kennel Club</title>
+  </head>
+  <body>
+    <header>
+      <h1>Odesa Kennel Club</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Find a Puppy</a></li>
+        <li><a href="#">Event Search</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Sing In</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Breed Traits & Characteristics</h2>
+        <article>
+          <h3>About the Breed</h3>
+          <p>Once the mischievous companion of Chinese emperors, and later the mascot of Holland's royal House of Orange, the small but solid Pug is today adored by his millions of fans around the world. 
+            Pugs live to love and to be loved in return.  
+            They come in three colors: silver or apricot-fawn with a black face mask, or all black.
+            Pug owners say their breed is the ideal house dog. 
+            Pugs are happy in the city or country, with kids or old folks, as an only pet or in a pack. 
+          </p>
+          <img src="https://www.akc.org/wp-content/uploads/2017/11/Pug-History-01-500x499.jpg"
+          alt="My cat and games"
+          width="500" height="500"
+          />
+          <figure>That is how a pug looked like in the past</figure>
+        </article>
+        <article>
+          <h3>The Breed Standard</h3>
+          <p><b>Breed Standard: </b>A description of the ideal dog of each recognized breed, to serve as an ideal against which dogs are judged at shows, originally laid down by a parent breed club and accepted officially by national or international bodies.</p>
+          <img src="https://www.fci.be/Nomenclature/Illustrations/253g09.jpg"
+          alt="My cat and games"
+          width="500" height="500"
+          />
+          <figure>That is how a pug looked like in the past</figure>
+        </article>
+      </section>
+
+      <aside>
+        <h2>Navigation Menu</h2>
+        <p>Here you can easily navigate our website:</p>
+        <nav>
+            <ul>
+              <li><a href="#">Our Club History</a></li>
+              <li><a href="#">Find a Puppy</a></li>
+              <li><a href="#">Event Search</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Sign In</a></li>
+            </ul>
+          </nav>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Founded in 2024, the not-for-profit OKC is the recognized and trusted expert in breed, health, and training information for all dogs. 
+        OKC actively advocates for responsible dog ownership and is dedicated to advancing dog sports.</p>
+      <ul>
+        <li><a href="#">About OKC</a></li>
+        <li><a href="#">Our Mission</a></li>
+        <li><a href="#">Our History</a></li>
+        <li><a href="#">Awards</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    </footer>
+  </body>
+</html>

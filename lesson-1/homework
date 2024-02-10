@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Introduction</title>
+  </head>
+  <body>
+    <main>
+      <h1>About Me</h1>  
+    </main>
+<p>Helo, I am Yuliia</p>
+<p>I have had some experience with Markdown, HTML and CSS.</p>
+<p>I was working on a documentation in GitLab a month ago and then I decided to join the course. Hope these classes will help me to understand frontend basics.</p>
+<h2>My Hobbies</h2>
+<p>I am a fan of collecting tabletop games and I really love animals.</p>
+<p>I have a cat named after the Egyptian god — <b>Thoth</b>.</p>
+<p>Here are two photos showing my interests:</p>
+    <img src="../images/cat-games.png"
+         alt="My cat and games"
+         width="500" height="300"
+         />
+         <figure>Thoth and the game <em>Planet</em></figure>
+<br>
+    <img src="../images/tabletop-games.png"
+         alt="My tabletop games"
+         width="300" height="500"
+         />
+         <figure>My latests tabletop games</figure>
+<h2>My Obsessions</h2>
+<ul>
+  <li>Tabletop games</li>
+  <li>Animals</li>
+  <li>Photography and photoshoots</li>
+  <li>The game <em>Animal Crossing</em></li>
+  <li>The game <em>Just Dance</em></li>
+  <li>Backing</li>
+</ul>
+<h2>Contact Me </h2>
+<li><a href="https://ua.linkedin.com/">Linkedin</a></li>
+<li><a href="https://www.facebook.com/">Facebook</a></li>
+ </p>
+
+  </body>
+</html>
