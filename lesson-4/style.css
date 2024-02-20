@@ -1,0 +1,53 @@
+.container {
+background-color: #B0C6FF;
+display: flex;
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px 30px;
+justify-content: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 239px;
+    height: 327px; 
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 3px solid black
+}
+
+.card-title {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.text {
+    text-align: center;
+}
+
+.picture {
+    margin: 20px;
+}
+
+.button {
+display: block;
+background-color: #6177EB;
+text-align: center;
+color: #FFFFFF;
+font-weight: bold;
+padding: 10px;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.main-heading {
+text-align: center;
+color: #FFFFFF;
+font-size: xxx-large;
+font-weight: bold;
+}
