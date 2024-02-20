@@ -51,3 +51,8 @@ color: #FFFFFF;
 font-size: xxx-large;
 font-weight: bold;
 }
+
+.wrapper {
+    background-color: #FFFCB0;
+    min-height: 100%;
+}
