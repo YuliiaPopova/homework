@@ -1,0 +1,122 @@
+.header {
+    background-color:#000000;
+    padding: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navigation {
+    
+}
+
+.nav-list {
+    display: inline-block;
+}
+
+.nav-item {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-size:large
+}
+
+.header-content-text {
+   max-width: 500px;
+   display: inline-block;
+   vertical-align: top; 
+}
+.header-content-title {
+    font-weight: bold;
+    font-size: 88px;
+    max-width: 1200px;
+    color: #000000;
+    padding-left: 10px;
+    padding-top: 90px;
+    text-align: left;
+}
+
+.wrapper-header{
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+}
+
+.header-content-description {
+   padding-top: 40px;
+   text-align: left;
+   font-weight: bold;
+}
+
+.header-content-img {
+    display: inline-block;
+    max-width: 482px;
+    vertical-align: top;
+    padding-left: 220px;
+    padding-top: 90px;
+}
+
+.input-field input {
+    border:2px solid black;
+    padding: 10px;
+    border-radius: 40px;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    width: 250px;
+}
+
+.input-group button {
+    background-color: #000000;
+    color:white;
+    padding: 12px;
+    border-radius: 40px;
+    cursor: pointer;
+    position: absolute;
+    left: 220px;
+    bottom: 30px;
+    border-bottom-left-radius: 10px ;
+    border-top-left-radius: 10px ;
+}
+
+.input-group {
+}
+
+.input-field {
+    display: inline-block;
+}
+
+.header-step {
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    padding: 40px;
+    left: 450px
+}
+
+.header-choose-product {
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    padding: 90px;
+    left: 200px
+}
+
+.main {
+    background-color:pink;
+}
+
+.phone-offer {
+    position: absolute;
+    margin: auto;
+
+}
