@@ -5,13 +5,15 @@
 
 .container {
     max-width: 1200px;
-    text-align: center;
     margin: 0 auto;
-    position: relative;
 }
 
 .navigation {
-    
+    text-align: center;
+}
+
+.header-content-main {
+
 }
 
 .nav-list {
@@ -65,11 +67,13 @@ display: flex;
     padding-top: 90px;
 }
 
+.input-search { 
+}
+
 .input-field input {
     border:2px solid black;
     padding: 10px;
     border-radius: 40px;
-    position: absolute;
     left: 10px;
     bottom: 30px;
     width: 250px;
@@ -81,7 +85,6 @@ display: flex;
     padding: 12px;
     border-radius: 40px;
     cursor: pointer;
-    position: absolute;
     left: 220px;
     bottom: 30px;
     border-bottom-left-radius: 10px ;
@@ -89,6 +92,7 @@ display: flex;
 }
 
 .input-group {
+ position: relative;
 }
 
 .input-field {
@@ -98,25 +102,53 @@ display: flex;
 .header-step {
     font-weight: bold;
     font-size: 20px;
-    position: absolute;
-    padding: 40px;
-    left: 450px
+    text-align: center;
+    margin-top: 40px;
 }
 
 .header-choose-product {
     font-weight: bold;
     font-size: 50px;
-    position: absolute;
-    padding: 90px;
-    left: 200px
+    padding: 40px;
+    text-align: center;
+
 }
 
 .main {
-    background-color:pink;
+    background-color:#FCD0BA;
+    margin: 0 auto;
 }
 
-.phone-offer {
-    position: absolute;
-    margin: auto;
+.main-content-img {
+    display: inline-block;
+}
 
+
+
+
+
+
+
+
+input-field input {
+border:2px solid black;
+padding: 10px;
+border-radius: 40px;
+position: absolute;
+left: 10px;
+bottom: 30px;
+width: 250px;
+}
+
+input-group button {
+background-color: #000000;
+color:white;
+padding: 12px;
+border-radius: 40px;
+cursor: pointer;
+position: absolute;
+left: 220px;
+bottom: 30px;
+border-bottom-left-radius: 10px ;
+border-top-left-radius: 10px ;
 }
