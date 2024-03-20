@@ -1,0 +1,40 @@
+/* table */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 9px 15px;
+    background-color: #9AFD4C;
+    border-radius: 5px;
+    font-size: ;
+    font-weight: bold;
+}
+
+.line {
+    height: 1px;
+    background-color: #F4F4F5; 
+}
+
+.table {
+    display: flex;
+
+}
+
+table-heading-list {
+
+}
+
+.table-heading-item {
+    color: black;
+    font-size: 14px;
+}
+
+table-heading-item__two {
+    color: #71717A;
+}
+
+
+/* table */

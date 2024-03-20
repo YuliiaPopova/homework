@@ -1,3 +1,5 @@
+/* header */
+
 .header {
     background-color:#000000;
     padding: 50px;
@@ -38,44 +40,49 @@
    vertical-align: top; 
 }
 .header-content-title {
-    font-weight: bold;
     font-size: 88px;
     max-width: 1200px;
     color: #000000;
     padding-left: 10px;
-    padding-top: 90px;
-    text-align: left;
+    margin-top: 90px;
 }
 
-.wrapper-header{
+.wrapper-header {
 max-width: 1200px;
 margin: 0 auto;
-display: flex;
 }
 
 .header-content-description {
    padding-top: 40px;
    text-align: left;
    font-weight: bold;
+   margin-left: 10px;
+}
+
+.header-content-credit {
+    
 }
 
 .header-content-img {
     display: inline-block;
     max-width: 482px;
     vertical-align: top;
-    padding-left: 220px;
+    padding-left: 210px;
     padding-top: 90px;
 }
 
+/* header */
+
+/* main */
+
 .input-search { 
+    margin-top: 40px;
 }
 
 .input-field input {
     border:2px solid black;
     padding: 10px;
     border-radius: 40px;
-    left: 10px;
-    bottom: 30px;
     width: 250px;
 }
 
@@ -85,14 +92,14 @@ display: flex;
     padding: 12px;
     border-radius: 40px;
     cursor: pointer;
-    left: 220px;
-    bottom: 30px;
     border-bottom-left-radius: 10px ;
     border-top-left-radius: 10px ;
+    position: relative;
+    right: 70px;
 }
 
 .input-group {
- position: relative;
+
 }
 
 .input-field {
@@ -116,39 +123,167 @@ display: flex;
 
 .main {
     background-color:#FCD0BA;
-    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .main-content-img {
     display: inline-block;
+    vertical-align: bottom;
+}
+
+.main-header {
+    display: inline-block; 
+    position: relative; 
+    left: 50px; 
+}
+
+.main-header-description {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.main-text-desription-two {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.main-text {
+    padding-bottom: 50px;
+}
+
+.main-list-item {
+     margin-top: 30px;
+    }
+
+.ckeck-image {
+}
+
+.check-text {
+    font-size: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    padding-top: 7px;
+}
+
+/* main */
+
+/* section two */
+
+.section-two {
+    background-color:#CCD3E7;
+    padding-bottom: 100px;
+}
+
+.section-two-img {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+
+}
+
+.button {
+    display: inline-block;
+}
+
+.button-one-section-two {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.section-two-header {
+    display: inline-block;
+    position: relative;
+    left: 50px;
 }
 
 
-
-
-
-
-
-
-input-field input {
-border:2px solid black;
-padding: 10px;
-border-radius: 40px;
-position: absolute;
-left: 10px;
-bottom: 30px;
-width: 250px;
+.section-two-header-description {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
 }
 
-input-group button {
-background-color: #000000;
-color:white;
-padding: 12px;
-border-radius: 40px;
-cursor: pointer;
-position: absolute;
-left: 220px;
-bottom: 30px;
-border-bottom-left-radius: 10px ;
-border-top-left-radius: 10px ;
+.section-two-text {
+
 }
+
+.section-two-text-description {
+    font-size: 16px;
+}
+
+.section-two-list {
+
+}
+
+.section-two-list-item {
+    margin-top: 30px;
+}
+
+.button-two-section-two {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* section two */
+
+/* footer */
+
+.footer {
+    background-color: #020016;
+    padding-bottom: 200px;
+}
+
+.footer-section-left {
+    display: inline-block;
+    padding-top: 100px;
+}
+
+.footer-description {
+   color: #B3B3B3;
+}
+
+.footer-right-section {
+    display: inline-block;
+    margin-left: 500px;
+    margin-right: 40px;
+    vertical-align: top;
+    padding-top: 60px;
+}
+
+.footer-right-section-two {
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: top;
+    padding-top: 60px;
+    
+}
+
+.footer-right-section-three {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 60px;
+}
+
+.footer-list-one {
+
+}
+
+.footer-item {
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+/* footer */
