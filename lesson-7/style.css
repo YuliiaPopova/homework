@@ -1,40 +1,228 @@
-/* table */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+/* header */
+
+body {
+  font-family: "Lexend";
+  font-size: 16px;
+  font-weight: 400;
+}
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .button {
-    padding: 9px 15px;
-    background-color: #9AFD4C;
-    border-radius: 5px;
-    font-size: ;
-    font-weight: bold;
+  padding: 9px 17px;
+  background-color: #4cfdc7;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
-.line {
-    height: 1px;
-    background-color: #F4F4F5; 
+.button_small-fz {
+  font-size: 12px;
+}
+
+.button_stroke {
+  background-color: transparent;
+  border: 1px solid #18181b;
+}
+
+/* navigation */
+
+.navigation {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  margin-bottom: 130px;
+}
+
+.navigation__aside {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.navigation__list {
+  display: flex;
+  column-gap: 32px;
+}
+
+.navigation__link {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.navigation__name {
+  color: #18181b;
+}
+
+/* header-content */
+
+.header-content {
+  display: flex;
+}
+
+.header-content__aside {
+  margin-right: 132px;
+  padding-top: 32px;
+  max-width: 660px;
+}
+
+.header-content__title {
+  font-size: 71px;
+  line-height: 90px;
+  letter-spacing: 1px;
+  margin-bottom: 34px;
+}
+
+.header-content__text {
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  max-width: 460px;
+  letter-spacing: 0.1px;
+  color: #27272a;
+}
+
+.header-content__buttons-group {
+  display: flex;
+  column-gap: 15px;
+}
+
+/* header */
+
+/* table */
+
+.table-headings {
+  display: flex;
+  gap: 250px;
+}
+
+.asset-heading, price-heading, change-heading, market-heading {
+
+}
+
+.buy-ref {
+  background-color: #9AFD4C;
+  display: flex;
+  flex-grow: 1;
+  margin-left: 20px;
+  
+}
+
+.buy-button {
+  color: black;
+  border-radius: 5px;
+  padding: 9px 15px;
+  justify-content: end;
 }
 
 .table {
-    display: flex;
-
+  display: flex;
+  margin-top: 100px;
 }
 
-table-heading-list {
-
+.table-heading-list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .table-heading-item {
-    color: black;
-    font-size: 14px;
+  color: black;
 }
 
-table-heading-item__two {
-    color: #71717A;
+.table-heading-item__two {
+  color: #a8a8ad;
 }
 
+.line {
+  margin-top: 20px;
+  height: 1px;
+  background-color: #eeeef3;
+}
 
+.crypto-box {
+  
+}
+
+.crypto-block {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.crypto {
+  display: flex;
+}
+
+.crypto-line {
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.asset, .price, .change, .market {
+  flex-grow: 2;
+}
+
+.change-bitcoin, .change-ethereum {
+  color:#F43F5E;
+}
+
+.change {
+  color: #10B981;
+}
+
+.asset {
+  display: flex;
+  align-items: center;
+}
+
+.asset-name {
+  margin-left: 10px;
+}
+
+.crypto-row {
+  display: flex;
+}
+
+.icons-bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.icon-one {
+  position: relative;
+}
+
+.icon-two{
+  position: relative;
+  right: 10px;
+}
+.icon-three {
+  position: relative;
+  right: 20px;
+}
+.icon-four {
+  position: relative;
+  right: 30px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+}
 /* table */
