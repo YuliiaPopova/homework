@@ -121,7 +121,6 @@ body {
   color: black;
   border-radius: 5px;
   padding: 9px 15px;
-  justify-content: end;
 }
 
 .table {
@@ -151,8 +150,7 @@ body {
 }
 
 .crypto-box {
-  
-}
+ 
 
 .crypto-block {
   display: flex;
@@ -164,11 +162,13 @@ body {
   display: flex;
 }
 
+
 .crypto-line {
   display: flex;
   gap: 300px;
   justify-content: center;
   align-items: center;
+  flex-grow: 2;
 }
 
 .asset, .price, .change, .market {
@@ -225,4 +225,6 @@ body {
   display: flex;
   align-items: center;
 }
+
+
 /* table */
