@@ -102,25 +102,32 @@ body {
 
 .table-headings {
   display: flex;
-  gap: 250px;
+  gap: 200px;
+  margin-right: 230px;
+ 
 }
 
-.asset-heading, price-heading, change-heading, market-heading {
+.asset-heading, change-heading {
+}
 
+.price-heading {
+  padding-left: 40px;
+}
+
+.market-heading {
+  padding-right: 20px;
 }
 
 .buy-ref {
   background-color: #9AFD4C;
   display: flex;
-  flex-grow: 1;
-  margin-left: 20px;
-  
 }
 
 .buy-button {
   color: black;
   border-radius: 5px;
   padding: 9px 15px;
+  flex-basis: 0;
 }
 
 .table {
@@ -150,33 +157,34 @@ body {
 }
 
 .crypto-box {
+
+}
  
 
 .crypto-block {
   display: flex;
-  align-items: center;
   margin-top: 20px;
+  flex-grow: 1;  
 }
 
 .crypto {
-  display: flex;
 }
 
 
 .crypto-line {
   display: flex;
-  gap: 300px;
-  justify-content: center;
   align-items: center;
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 .asset, .price, .change, .market {
-  flex-grow: 2;
+  flex-grow: 1;  
+  width: 40px;
 }
 
 .change-bitcoin, .change-ethereum {
   color:#F43F5E;
+  flex-grow: 1;  
 }
 
 .change {
@@ -191,6 +199,7 @@ body {
 .asset-name {
   margin-left: 10px;
 }
+
 
 .crypto-row {
   display: flex;
