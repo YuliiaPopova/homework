@@ -1,5 +1,5 @@
 .main {
-    
+   
 }
 
 .main-container {
@@ -20,14 +20,14 @@ max-width: 1200px;
 }
 
 .image-left {
-    display: flex;
-    width: 100%;
     flex-grow: 1; 
     flex-basis: 0;
+    display: flex;
+    width: 100%;
 }
 
 .main-image {
-
+  
 }
 
 @media screen and (max-width:1120px) {
@@ -46,7 +46,7 @@ max-width: 1200px;
 
 @media screen and (max-width:1120px) {
     .main-box-right {
-    
+     
     }
 }
 
