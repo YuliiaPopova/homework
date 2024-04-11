@@ -1,0 +1,26 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #ce4d4d;
+}
+
+.navigation_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo-name {
+  color: white;
+}
+
+.nav-list {
+  flex-direction: row;
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+}/*# sourceMappingURL=header.css.map */

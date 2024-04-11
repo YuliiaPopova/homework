@@ -1,0 +1,113 @@
+.main {
+    
+}
+
+.main-container {
+margin: 0 auto;
+max-width: 1200px;
+}
+
+@media screen and (max-width:1120px) {
+    .main-container {
+        max-width: 800px;
+        }
+}
+
+@media screen and (max-width:1120px) {
+    .main {
+     max-width: 800px;
+    }
+}
+
+.image-left {
+    display: flex;
+}
+
+.main-image {
+
+}
+
+@media screen and (max-width:1120px) {
+    .main-image {
+    width: 500px;
+    }
+}
+
+.main-box-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    justify-content: center;
+}
+
+@media screen and (max-width:1120px) {
+    .main-box-right {
+     min-width: 500px;
+    }
+}
+
+
+.main-header {
+    color: white;
+    font-size: 50px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.main-text {
+    margin-top: 20px;
+}
+
+.text-description {
+    color: white;
+    font-size: $font-size-s;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.input-main {
+    margin-top: 10px;
+    position: relative;
+      display: flex;
+     align-items: center;
+}
+
+.input-icon {
+    position: absolute;
+    padding-left: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-main input {
+    padding: 15px;
+    border-radius: 25px;
+    width: 320px;
+    background-color: rgba(193, 195, 195, 0.618);
+    padding-left: 45px;
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.input-main input::placeholder {
+    color: #2B2B2B 
+  }
+
+  .main-button {
+    width: 320px;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+
+
+  }
+
+  .main-button-account {
+    
+  }
