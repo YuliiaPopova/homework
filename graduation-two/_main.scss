@@ -21,6 +21,9 @@ max-width: 1200px;
 
 .image-left {
     display: flex;
+    width: 100%;
+    flex-grow: 1; 
+    flex-basis: 0;
 }
 
 .main-image {
@@ -29,7 +32,6 @@ max-width: 1200px;
 
 @media screen and (max-width:1120px) {
     .main-image {
-    width: 500px;
     }
 }
 
@@ -38,11 +40,13 @@ max-width: 1200px;
     flex-direction: column;
     margin-left: 70px;
     justify-content: center;
+    flex-grow: 1; 
+    flex-basis: 0;
 }
 
 @media screen and (max-width:1120px) {
     .main-box-right {
-     min-width: 500px;
+    
     }
 }
 
@@ -86,7 +90,8 @@ max-width: 1200px;
 .input-main input {
     padding: 15px;
     border-radius: 25px;
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
     background-color: rgba(193, 195, 195, 0.618);
     padding-left: 45px;
     font-size: 16px;
