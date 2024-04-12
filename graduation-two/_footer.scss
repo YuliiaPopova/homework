@@ -13,6 +13,7 @@
     }
 }
 
+
 .footer-left-box {
     display: flex;
     margin-left: 50px;
@@ -35,6 +36,7 @@
     font-size: $font-size-s;
     font-family: "Work Sans", sans-serif;
     color: white;
+    font-weight: bold;
 }
 
 .left-box-list {
@@ -81,9 +83,10 @@
 
 .middle-text-header {
     font-size: $font-size-s;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Space Mono", monospace;
     color: white;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .middle-text-one, .middle-text-two, .middle-text-three {
@@ -112,9 +115,10 @@
 
 .right-text-header {
     font-size: $font-size-s;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Space Mono", monospace;
     color: white;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .right-text-one {
