@@ -110,23 +110,31 @@
   max-width: 1200px;
 }
 
-@media screen and (max-width: 1120px) {
-  .main-container {
-    max-width: 800px;
-  }
-}
-@media screen and (max-width: 1120px) {
-  .main {
-    max-width: 800px;
-  }
-}
 .image-left {
   flex-grow: 1;
   flex-basis: 0;
   display: flex;
-  width: 100%;
 }
 
+@media screen and (max-width: 1000px) {
+  .image-left {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .main-image {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 .main-box-right {
   display: flex;
   flex-direction: column;
@@ -134,8 +142,20 @@
   justify-content: center;
   flex-grow: 1;
   flex-basis: 0;
+  width: 100%;
 }
 
+@media screen and (max-width: 1120px) {
+  .main-box-right {
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-box-right {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main-header {
   color: white;
   font-size: 50px;
@@ -177,7 +197,7 @@
   border-radius: 25px;
   max-width: 320px;
   width: 100%;
-  background-color: rgba(193, 195, 195, 0.618);
+  background-color: white;
   padding-left: 45px;
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
@@ -201,14 +221,37 @@
 }
 
 .footer {
-  background-color: #2B2B2B;
-  display: flex;
-  flex-direction: row;
-  padding-top: 100px;
+  background-color: #3B3B3B;
+  padding-top: 50px;
 }
 
+@media screen and (max-width: 1120px) {
+  .footer-box {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .footer-left-box {
   display: flex;
+  margin-left: 50px;
+}
+
+.left-box-item-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-logo-name {
+  font-size: 22px;
+  font-family: "Work Sans", sans-serif;
+  color: white;
+}
+
+.left-box-item {
+  margin-bottom: 20px;
 }
 
 .left-text-one {
@@ -221,14 +264,28 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.footer-discord, .footer-youtube, .footer-twitter, .footer-instagram {
+  margin-right: 5px;
+}
+
 .footer-middle-box {
   display: flex;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer-middle-box {
+    margin-left: 50px;
+  }
+}
+.middle-box-item {
+  margin-bottom: 20px;
 }
 
 .middle-text-header {
   font-size: 22px;
   font-family: "Work Sans", sans-serif;
   color: white;
+  margin-bottom: 20px;
 }
 
 .middle-text-one, .middle-text-two, .middle-text-three {
@@ -236,13 +293,98 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.footer-right-box {
+  display: flex;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer-right-box {
+    margin-left: 50px;
+  }
+}
 .right-text-header {
   font-size: 22px;
   font-family: "Work Sans", sans-serif;
   color: white;
+  margin-bottom: 20px;
 }
 
 .right-text-one {
   color: rgba(134, 130, 130, 0.9725490196);
   font-family: "Work Sans", sans-serif;
+}
+
+.footer-box {
+  display: flex;
+  gap: 100px;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer-box {
+    gap: 20px;
+  }
+}
+.footer-input {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.footer-email-input {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 15px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.footer-subscribe-button {
+  background-color: #A259FF;
+  padding: 18px 40px;
+  border-radius: 15px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  position: relative;
+  right: 20px;
+}
+
+.footer-email-input::-moz-placeholder {
+  color: #3B3B3B;
+}
+
+.footer-email-input::placeholder {
+  color: #3B3B3B;
+}
+
+.footer-line {
+  height: 1px;
+  background-color: rgba(134, 130, 130, 0.9725490196);
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer-line {
+    height: 1px;
+    background-color: rgba(134, 130, 130, 0.9725490196);
+    margin-top: 40px;
+  }
+}
+.footer-trademark {
+  margin-left: 75px;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer-trademark {
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+}
+.footer-trademark-text {
+  font-family: "Work Sans", sans-serif;
+  color: rgba(134, 130, 130, 0.9725490196);
+  margin-top: 20px;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
