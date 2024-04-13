@@ -102,6 +102,7 @@
 @media screen and (max-width: 1120px) {
     .footer-right-box {
         margin-left: 50px;
+        display: block;
     }
 }
 
@@ -110,8 +111,9 @@
 }
 
 .right-box-item {
-    
+
 }
+
 
 .right-text-header {
     font-size: $font-size-s;
@@ -143,12 +145,28 @@
     display: inline-block;
 }
 
+@media screen and (max-width: 600px) {
+    .footer-input {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 .footer-email-input {
     padding: 15px;
     border-radius: 15px;
     background-color: white;
     font-size: 15px;
     font-family: "Work Sans", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-email-input {
+        border-radius: 20px;
+        flex-grow: 1; 
+        width: 100%; 
+    }
 }
 
 .footer-subscribe-button {
@@ -160,6 +178,24 @@
     font-weight: bold;
     position: relative;
     right: 20px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .footer-subscribe-button {
+        padding: 18px 70px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .footer-subscribe-button {
+        margin-left: 20px;
+        border-radius: 20px;
+        flex-grow: 1; 
+        width: 100%; 
+    }
 }
 
 .footer-email-input::placeholder {
@@ -189,6 +225,13 @@
     .footer-trademark {
         margin-left: 50px;
         margin-right: 100px;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-trademark {
+        margin-left: 30px;
+        margin-right: 30px;
       }
 }
 
