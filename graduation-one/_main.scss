@@ -1,0 +1,100 @@
+.main {
+    background-color: #2B2B2B;
+}
+
+.main-box {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.main-area {
+
+}
+
+.main-small-box {
+    display: flex;
+    gap: 10px;
+}
+
+.main-heading {
+    color: white;
+    font-size: 50px;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 30px;
+}
+
+.main-heading-text {
+    color: white;
+    font-size: $font-size-s;
+    margin-top: 15px;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 30px;
+}
+
+.main-img-dog {
+    margin-bottom: 10px;
+}
+
+.dog-glasses {
+
+}
+
+.main-cat-small {
+
+}
+
+.cat-goggles {
+
+}
+
+.main-bear-small {
+
+}
+
+.bear-sunnies {
+
+}
+
+.main-number-area {
+
+}
+
+.number-one {
+    background-color: #A259FF;;
+    color: white;
+    padding: 43px 30px;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 20px;
+}
+
+.main-nick-area {
+    margin-top: 20px;
+}
+
+.main-nick-area-header {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: $font-size-s;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.avatar {
+
+}
+
+.avatar-name {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 10px;
+    
+}
+
+.nick-area-box {
+    display: flex;
+    align-items: center;
+}

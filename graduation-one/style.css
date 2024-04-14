@@ -354,4 +354,165 @@
     grid-template-rows: repeat(7, 1fr);
   }
 }
-/* header *//*# sourceMappingURL=style.css.map */
+/* header */
+.main {
+  background-color: #2B2B2B;
+}
+
+.main-box {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.main-small-box {
+  display: flex;
+  gap: 10px;
+}
+
+.main-heading {
+  color: white;
+  font-size: 50px;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 30px;
+}
+
+.main-heading-text {
+  color: white;
+  font-size: 22px;
+  margin-top: 15px;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 30px;
+}
+
+.main-img-dog {
+  margin-bottom: 10px;
+}
+
+.number-one {
+  background-color: #A259FF;
+  color: white;
+  padding: 43px 30px;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 20px;
+}
+
+.main-nick-area {
+  margin-top: 20px;
+}
+
+.main-nick-area-header {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.avatar-name {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 10px;
+}
+
+.nick-area-box {
+  display: flex;
+  align-items: center;
+}
+
+.main-one {
+  margin-top: 100px;
+}
+
+.boxes-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main-heading-one {
+  color: white;
+  font-size: 50px;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 30px;
+}
+
+.main-heading-text-one {
+  color: white;
+  font-size: 22px;
+  margin-top: 15px;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 30px;
+}
+
+.main-one-card {
+  margin-top: 50px;
+  display: flex;
+}
+
+.card {
+  background-color: #3B3B3B;
+  padding: 30px 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-image {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.under-title-text {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.card-text-left {
+  color: #858584;
+}
+
+.card-text-right {
+  color: white;
+}
+
+.main-two {
+  margin-top: 100px;
+}
+
+.main-heading-two {
+  color: white;
+  font-size: 50px;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 30px;
+}
+
+.blur-cards-box {
+  display: flex;
+}
+
+.blur-card {
+  position: relative;
+}
+
+.blur {
+  filter: blur(5px);
+}
+
+.icon-blur {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */
