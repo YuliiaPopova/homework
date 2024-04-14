@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 /* navigation */
 .container {
   max-width: 1200px;
@@ -539,4 +540,105 @@
   border-bottom-left-radius: 20px;
   padding-left: 15px;
   padding: 20px;
+}
+
+.main-three {
+  margin-top: 100px;
+}
+
+.main-heading-three {
+  color: white;
+  font-size: 50px;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 30px;
+}
+
+.main-heading-text-three {
+  color: white;
+  font-size: 22px;
+  margin-top: 15px;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 30px;
+}
+
+.main-three-box {
+  display: flex;
+}
+
+.card-main-three {
+  margin-top: 50px;
+}
+
+.card-main-three-text {
+  background-color: #3B3B3B;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-three-heading {
+  color: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.box-main-three {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.avatar-main-three-text {
+  color: white;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-weight: 100;
+}
+
+.second-box-main-three {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.second-box-left {
+  color: #858584;
+  font-size: 12px;
+  font-family: "Space Mono", monospace;
+}
+
+.second-box-right {
+  color: #858584;
+  font-size: 12px;
+  font-family: "Space Mono", monospace;
+}
+
+.third-box-main-three {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 20px;
+}
+
+.third-box-left {
+  color: white;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-weight: 100;
+}
+
+.third-box-right {
+  color: white;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-weight: 100;
 }/*# sourceMappingURL=style.css.map */
